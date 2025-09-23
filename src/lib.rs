@@ -8,6 +8,12 @@ mod test;
 /// Key/Value storage.
 pub mod key_value;
 
+/// Atomics Key/Value storage.
+pub mod key_value_atomics;
+
+/// Batch Key/Value storage.
+pub mod key_value_batch;
+
 /// SQLite storage for Spin 2 and earlier. Applications that do not require
 /// this backward compatibility should use the [`sqlite3`] module instead.
 pub mod sqlite;
